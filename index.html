@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Flip Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- pics -->
+  <div class="slideshow-container">
+    <img class="slide fade" src="images/img1.JPG" />
+    <img class="slide fade" src="images/img2.jpg" />
+  </div>
+
+  <!-- <div class="penguin-background">
+    <img src="images/left-penguin.png" class="penguin left" />
+    <img src="images/right-penguin.png" class="penguin right" />
+  </div> -->
+  
+
+  <!-- books available -->
+  <section class="book-gallery">
+    <h2>This is our story</h2>
+    <h5>Don't cringe too hard</h5>
+
+    <div class="books">
+      <!-- gnes 6 books -->
+      <div class="book" data-month="1">Chapter 1</div>
+      <div class="book" data-month="2">Chapter 2</div>
+      <div class="book" data-month="3">Chapter 3</div>
+      <div class="book" data-month="4">Chapter 4</div>
+      <div class="book" data-month="5">Chapter 5</div>
+      <div class="book" data-month="6">Chapter 6</div>
+    </div>
+  </section>
+
+  <!-- Modal Book Flip -->
+  <div class="book-modal" id="bookModal">
+    <div class="book-flip" id="bookPages">
+        <div class="book-flip" id="bookPages"></div>
+    </div>
+      
+    <button id="prevPage" class="nav-arrow">&#8592;</button>
+    <button id="nextPage" class="nav-arrow">&#8594;</button>    
+    <button id="closeModal">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
